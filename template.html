@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+  <head>
+    <title>{{title}}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: sans-serif;
+      }
+
+      html {
+        font-size: clamp(16px, 16px + 0.8vw, 32px);
+      }
+
+      body {
+        text-align: center;
+        background: #161514;
+        color: #dde2e6;
+        padding: 0;
+        margin: 0;
+        font-size: 1rem;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        color: #a99370;
+      }
+
+      h1 {
+        font-size: 1.6rem;
+      }
+
+      h2 {
+        font-size: 1.4rem;
+      }
+
+      h3 {
+        font-size: 1.2rem;
+      }
+
+      h4 {
+        font-size: 1rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+
+      a {
+        color: #70a9a9;
+      }
+
+      main {
+        display: inline-block;
+        width: 100%;
+        max-width: 840px;
+        text-align: left;
+        padding: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>{{content}}</main>
+  </body>
+</html>
